@@ -1,22 +1,18 @@
-Welcome to Lumache's documentation!
+Documentation du projet RType
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**RType** est un projet fait durant la troisième année d'étude à Epitech. Le but est d'implémenter un jeu vidéo 2D multiplateforme et jouable en multijoueur sur un réseau local.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Consultez la section :ref:`installation` pour savoir comment utiliser le projet sur son ordinateur.
 
 .. note::
 
-   This project is under active development.
+   Cette documentation est en cours de rédaction. Des éléments peuvent être manquants ou incomplets.
 
-Contents
+Sommaire
 --------
 
 .. toctree::
 
    usage
-   api
+   ecs

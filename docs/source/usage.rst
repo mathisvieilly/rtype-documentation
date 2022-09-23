@@ -1,34 +1,27 @@
-Usage
-=====
+Utilisation
+===========
 
 .. _installation:
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+Pour jouer à notre super jeu, effectuez les commandes suivantes dans votre terminal:
+
+- Créez le répertoire ou le jeu sera construit par le compilateur:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ mkdir build && cd build/
 
-Creating recipes
-----------------
+- Demandez au compilateur de construire le jeu:
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+.. code-block:: console
 
-.. autofunction:: lumache.get_random_ingredients
+   $ cmake .. && make
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+- Lancez le jeu avec la commande suivante:
 
-.. autoexception:: lumache.InvalidKindError
+.. code-block:: console
 
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   $ ./rtype
